@@ -1,0 +1,3774 @@
+﻿  plylib.cpp
+  ConvexHull.cpp
+D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(195,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“ConvexHull.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\ConvexHull.cpp(126,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\VcgToLibigl\VcgToLibigl\ConvexHull.cpp(163,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\vcglib\vcg\complex\algorithms\clean.h(424,21): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“ConvexHull.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(424,21):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,28):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Clean<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\clean.h(396,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex(CMeshO &,bool)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(225,52):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,68): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“ConvexHull.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(370,68):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(363,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\clean.h(273,23):
+  		请参阅 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,49):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,42): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“ConvexHull.cpp”)
+  
+D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“ConvexHull.cpp”)
+  D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(70,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Vertex<CUsedTypesO,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf,vcg::vertex::RadiusmOcf,vcg::DefaultDeriver>”的引用
+  	D:\vcglib\vcg\simplex\vertex\base.h(193,29):
+  	查看对正在编译的 类 模板 实例化“vcg::VertexArityMax<UserTypes,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\simplex\vertex\base.h(64,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity12<vcg::vertex::EmptyCore<UserTypes>,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(124,63):
+  	查看对正在编译的 类 模板 实例化“vcg::DefaultDeriver<vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(32,31):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(113,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusmOcf<vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(32,48):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusOcf<float,T>”的引用
+          with
+          [
+              T=vcg::Arity10<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(495,54):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(103,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirmOcf<vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(28,54):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirOcf<vcg::vertex::CurvatureDirTypeOcf<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity9<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(447,60):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(94,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordfOcf<vcg::Arity8<Base,A,B,C,D,E,F,G,H>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(406,47):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordOcf<vcg::TexCoord2<float,1>,T>”的引用
+          with
+          [
+              T=vcg::Arity8<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(388,56):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity8<Base,A,B,C,D,E,F,G,H>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(85,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::MarkOcf<vcg::Arity7<Base,A,B,C,D,E,F,G>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(412,42):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity7<Base,A,B,C,D,E,F,G>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(77,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(275,43):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity6<Base,A,B,C,D,E,F>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(69,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color4b<vcg::Arity5<Base,A,B,C,D,E>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(383,43):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color<vcg::Color4b,TT>”的引用
+          with
+          [
+              TT=vcg::Arity5<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(367,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity5<Base,A,B,C,D,E>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(62,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Qualitym<vcg::Arity4<Base,A,B,C,D>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(24,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Quality<float,T>”的引用
+          with
+          [
+              T=vcg::Arity4<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(395,52):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity4<Base,A,B,C,D>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(55,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal3m<vcg::Arity3<Base,A,B,C>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(20,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity3<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(234,50):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity3<Base,A,B,C>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(49,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::BitFlags<vcg::Arity2<Base,A,B>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(344,44):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity2<Base,A,B>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(43,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord3m<vcg::Arity1<Base,A>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(16,45):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity1<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(194,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity1<Base,A>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(37,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::InfoOcf<Base>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(533,16):
+  	在编译 类 模板 成员函数“int vcg::vertex::InfoOcf<Base>::Index(void) const”时
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\simplex\vertex\component_ocf.h(288,9):
+  		请参阅 "vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>::VFi" 中对 "vcg::vertex::InfoOcf<Base>::Index" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+          and
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\complex\algorithms\update\topology.h(474,17):
+  		请参阅 "vcg::tri::UpdateTopology<CMeshO>::VertexFace" 中对 "vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>::VFi" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(160,47):
+  		请参阅 "CMeshO::updateDataMask" 中对 "vcg::tri::UpdateTopology<CMeshO>::VertexFace" 的第一个引用
+  
+  MeshClipping.cpp
+D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(195,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.h(18,29): warning C4305: “初始化”: 从“double”到“float”截断
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(46,26): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(84,32): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(85,45): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(85,45): warning C4267:         with
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(85,45): warning C4267:         [
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(85,45): warning C4267:             _Ty=int
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(85,45): warning C4267:         ]
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(117,40): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(134,31): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(142,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(143,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(144,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(57,41): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(91,30): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(131,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(156,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(157,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(193,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(194,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(251,41): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\CutMesh.h(252,42): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\Sweeping.h(34,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\Sweeping.h(52,59): warning C4244: “参数”: 从“int”转换到“const P3ScalarType”，可能丢失数据
+D:\Myproject\VcgToLibigl\VcgToLibigl\Sweeping.h(52,59): warning C4244:         with
+D:\Myproject\VcgToLibigl\VcgToLibigl\Sweeping.h(52,59): warning C4244:         [
+D:\Myproject\VcgToLibigl\VcgToLibigl\Sweeping.h(52,59): warning C4244:             P3ScalarType=float
+D:\Myproject\VcgToLibigl\VcgToLibigl\Sweeping.h(52,59): warning C4244:         ]
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(131,104): warning C4305: “参数”: 从“double”到“float”截断
+D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(132,104): warning C4305: “参数”: 从“double”到“float”截断
+D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(155,103): warning C4305: “参数”: 从“double”到“float”截断
+D:\vcglib\vcg\complex\algorithms\clean.h(748,26): warning C4244: “参数”: 从“unsigned __int64”转换到“const P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\complex\algorithms\clean.h(748,26): warning C4244:         with
+D:\vcglib\vcg\complex\algorithms\clean.h(748,26): warning C4244:         [
+D:\vcglib\vcg\complex\algorithms\clean.h(748,26): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\complex\algorithms\clean.h(748,26): warning C4244:         ]
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(748,26):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,28):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Clean<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\clean.h(679,16):
+  	在编译 类 模板 成员函数“size_t vcg::tri::Clean<CMeshO>::SplitManifoldComponents(CMeshO &,const float)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(151,50):
+  		请参阅 "MeshClipping::PImpl::surfaceConstruction" 中对 "vcg::tri::Clean<CMeshO>::SplitManifoldComponents" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(670,38): warning C4244: “参数”: 从“unsigned __int64”转换到“const P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\complex\algorithms\clean.h(670,38): warning C4244:         with
+D:\vcglib\vcg\complex\algorithms\clean.h(670,38): warning C4244:         [
+D:\vcglib\vcg\complex\algorithms\clean.h(670,38): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\complex\algorithms\clean.h(670,38): warning C4244:         ]
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(670,38):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(617,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::SplitNonManifoldVertex(CMeshO &,float)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(149,49):
+  		请参阅 "MeshClipping::PImpl::surfaceConstruction" 中对 "vcg::tri::Clean<CMeshO>::SplitNonManifoldVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(424,21): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(424,21):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(396,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex(CMeshO &,bool)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(225,52):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex" 的第一个引用
+  
+D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(70,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Vertex<CUsedTypesO,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf,vcg::vertex::RadiusmOcf,vcg::DefaultDeriver>”的引用
+  	D:\vcglib\vcg\simplex\vertex\base.h(193,29):
+  	查看对正在编译的 类 模板 实例化“vcg::VertexArityMax<UserTypes,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\simplex\vertex\base.h(64,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity12<vcg::vertex::EmptyCore<UserTypes>,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(124,63):
+  	查看对正在编译的 类 模板 实例化“vcg::DefaultDeriver<vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(32,31):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(113,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusmOcf<vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(32,48):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusOcf<float,T>”的引用
+          with
+          [
+              T=vcg::Arity10<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(495,54):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(103,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirmOcf<vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(28,54):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirOcf<vcg::vertex::CurvatureDirTypeOcf<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity9<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(447,60):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(94,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordfOcf<vcg::Arity8<Base,A,B,C,D,E,F,G,H>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(406,47):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordOcf<vcg::TexCoord2<float,1>,T>”的引用
+          with
+          [
+              T=vcg::Arity8<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(388,56):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity8<Base,A,B,C,D,E,F,G,H>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(85,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::MarkOcf<vcg::Arity7<Base,A,B,C,D,E,F,G>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(412,42):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity7<Base,A,B,C,D,E,F,G>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(77,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(275,43):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity6<Base,A,B,C,D,E,F>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(69,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color4b<vcg::Arity5<Base,A,B,C,D,E>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(383,43):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color<vcg::Color4b,TT>”的引用
+          with
+          [
+              TT=vcg::Arity5<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(367,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity5<Base,A,B,C,D,E>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(62,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Qualitym<vcg::Arity4<Base,A,B,C,D>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(24,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Quality<float,T>”的引用
+          with
+          [
+              T=vcg::Arity4<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(395,52):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity4<Base,A,B,C,D>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(55,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal3m<vcg::Arity3<Base,A,B,C>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(20,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity3<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(234,50):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity3<Base,A,B,C>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(49,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::BitFlags<vcg::Arity2<Base,A,B>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(344,44):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity2<Base,A,B>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(43,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord3m<vcg::Arity1<Base,A>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(16,45):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity1<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(194,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity1<Base,A>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(37,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::InfoOcf<Base>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(533,16):
+  	在编译 类 模板 成员函数“int vcg::vertex::InfoOcf<Base>::Index(void) const”时
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\CleanMesh.h(35,4):
+  		请参阅 "CleanMesh::GetVertexRingVertices" 中对 "vcg::vertex::InfoOcf<Base>::Index" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  
+D:\vcglib\vcg\complex\append.h(389,23): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\complex\append.h(389,23):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(60,36):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Append<CMeshO,CMeshO>”的引用
+  	D:\vcglib\vcg\complex\append.h(288,13):
+  	在编译 类 模板 成员函数“void vcg::tri::Append<CMeshO,CMeshO>::MeshAppendConst(MeshLeft &,const ConstMeshRight &,const bool,const bool)”时
+          with
+          [
+              MeshLeft=CMeshO,
+              ConstMeshRight=CMeshO
+          ]
+  		D:\vcglib\vcg\complex\append.h(267,18):
+  		请参阅 "vcg::tri::Append<CMeshO,CMeshO>::Mesh" 中对 "vcg::tri::Append<CMeshO,CMeshO>::MeshAppendConst" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(60,40):
+  		请参阅 "MeshClipping::SetDentureBaseMesh" 中对 "vcg::tri::Append<CMeshO,CMeshO>::Mesh" 的第一个引用
+  
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244: “=”: 从“__int64”转换到“_Ty”，可能丢失数据
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244:         with
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244:         [
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244:             _Ty=unsigned int
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244:         ]
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,68): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(370,68):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(363,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\clean.h(273,23):
+  		请参阅 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,49):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,42): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  
+D:\vcglib\vcg\complex\allocate.h(761,13): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\complex\allocate.h(761,13):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(226,32):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Allocator<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\allocate.h(743,24):
+  	在编译 类 模板 成员函数“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> vcg::tri::Allocator<CMeshO>::AddTetras(MeshType &,size_t,vcg::tri::Allocator<MeshType>::PointerUpdater<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver> *> &)”时
+          with
+          [
+              _Ty=vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,
+              MeshType=CMeshO
+          ]
+  		D:\vcglib\vcg\complex\allocate.h(901,5):
+  		请参阅 "vcg::tri::Allocator<CMeshO>::AddTetras" 中对 "vcg::tri::Allocator<CMeshO>::AddTetras" 的第一个引用
+  		D:\vcglib\vcg\complex\append.h(375,25):
+  		请参阅 "vcg::tri::Append<CMeshO,CMeshO>::MeshAppendConst::<lambda_5>::operator ()" 中对 "vcg::tri::Allocator<CMeshO>::AddTetras" 的第一个引用
+  
+D:\vcglib\vcg\space\index\spatial_hashing.h(322,40): warning C4244: “参数”: 从“double”转换到“const BoxScalarType”，可能丢失数据
+D:\vcglib\vcg\space\index\spatial_hashing.h(322,40): warning C4244:         with
+D:\vcglib\vcg\space\index\spatial_hashing.h(322,40): warning C4244:         [
+D:\vcglib\vcg\space\index\spatial_hashing.h(322,40): warning C4244:             BoxScalarType=float
+D:\vcglib\vcg\space\index\spatial_hashing.h(322,40): warning C4244:         ]
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\space\index\spatial_hashing.h(322,40):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(1881,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::ClusterVertex(CMeshO &,const float)”时
+  		D:\vcglib\vcg\complex\algorithms\clean.h(1876,13):
+  		请参阅 "vcg::tri::Clean<CMeshO>::MergeCloseVertex" 中对 "vcg::tri::Clean<CMeshO>::ClusterVertex" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(196,43):
+  		请参阅 "MeshClipping::PImpl::applyBoolOperation" 中对 "vcg::tri::Clean<CMeshO>::MergeCloseVertex" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\clean.h(1891,6):
+  	查看对正在编译的函数 模板 实例化“void vcg::SpatialHashTable<CVertexO,float>::Set<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(const OBJITER &,const OBJITER &,const vcg::Box3<float> &)”的引用
+          with
+          [
+              _Ty=CVertexO,
+              OBJITER=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<CVertexO>>>
+          ]
+  
+D:\vcglib\vcg\container\simple_temporary_data.h(107,40): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\container\simple_temporary_data.h(107,40):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(617,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::SplitNonManifoldVertex(CMeshO &,float)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(149,49):
+  		请参阅 "MeshClipping::PImpl::surfaceConstruction" 中对 "vcg::tri::Clean<CMeshO>::SplitNonManifoldVertex" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\clean.h(624,28):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::SelectionStack<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\update\selection.h(99,8):
+  	在编译 类 模板 成员函数“bool vcg::tri::SelectionStack<CMeshO>::pop(bool,bool)”时
+  		D:\vcglib\vcg\complex\algorithms\clean.h(652,9):
+  		请参阅 "vcg::tri::Clean<CMeshO>::SplitNonManifoldVertex" 中对 "vcg::tri::SelectionStack<CMeshO>::pop" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(149,49):
+  		请参阅 "MeshClipping::PImpl::surfaceConstruction" 中对 "vcg::tri::Clean<CMeshO>::SplitNonManifoldVertex" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\update\selection.h(114,19):
+  	查看对正在编译的函数 模板 实例化“ATTR_TYPE &vcg::tri::TriMesh<vcg::vertex::vector_ocf<CVertexO>,vcg::face::vector_ocf<CFaceO>,vcg::tri::DummyContainer,vcg::tri::DummyContainer,vcg::tri::DummyContainer>::AttributeHandle<ATTR_TYPE,vcg::vertex::vector_ocf<CVertexO>>::operator []<CVertexO>(const RefType &)”的引用
+          with
+          [
+              ATTR_TYPE=bool,
+              RefType=CVertexO
+          ]
+  	D:\vcglib\vcg\complex\base.h(302,55):
+  	查看对正在编译的 类 模板 实例化“vcg::SimpleTempData<CONT,ATTR_TYPE>”的引用
+          with
+          [
+              CONT=vcg::vertex::vector_ocf<CVertexO>,
+              ATTR_TYPE=bool
+          ]
+  	D:\vcglib\vcg\container\simple_temporary_data.h(132,26):
+  	查看对正在编译的 类 模板 实例化“vcg::VectorNBW<ATTR_TYPE>”的引用
+          with
+          [
+              ATTR_TYPE=bool
+          ]
+  	D:\vcglib\vcg\container\simple_temporary_data.h(107,18):
+  	在编译 类 模板 成员函数“unsigned int vcg::VectorNBW<ATTR_TYPE>::size(void) const”时
+          with
+          [
+              ATTR_TYPE=bool
+          ]
+  		D:\vcglib\vcg\container\simple_temporary_data.h(196,9):
+  		请参阅 "vcg::SimpleTempData<CONT,ATTR_TYPE>::Reorder" 中对 "vcg::VectorNBW<ATTR_TYPE>::size" 的第一个引用
+          with
+          [
+              CONT=std::vector<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,std::allocator<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>>>,
+              ATTR_TYPE=bool
+          ]
+          and
+          [
+              ATTR_TYPE=bool
+          ]
+  
+D:\vcglib\vcg\container\simple_temporary_data.h(87,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\container\simple_temporary_data.h(87,19):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\container\simple_temporary_data.h(85,7):
+  	在编译 类 模板 成员函数“void vcg::VectorNBW<ATTR_TYPE>::resize(size_t)”时
+          with
+          [
+              ATTR_TYPE=bool
+          ]
+  		D:\vcglib\vcg\container\simple_temporary_data.h(191,20):
+  		请参阅 "vcg::SimpleTempData<CONT,ATTR_TYPE>::Resize" 中对 "vcg::VectorNBW<ATTR_TYPE>::resize" 的第一个引用
+          with
+          [
+              CONT=std::vector<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,std::allocator<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>>>,
+              ATTR_TYPE=bool
+          ]
+          and
+          [
+              ATTR_TYPE=bool
+          ]
+  
+D:\vcglib\vcg\complex\algorithms\refine.h(154,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshClipping.cpp”)
+  D:\vcglib\vcg\complex\algorithms\refine.h(154,40):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\MeshClipping.cpp(131,92):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::MidPoint<CMeshO,vcg::tri::BaseInterpolator<MESH_TYPE>>”的引用
+          with
+          [
+              MESH_TYPE=CMeshO
+          ]
+  	D:\vcglib\vcg\complex\algorithms\refine.h(139,10):
+  	在编译 类 模板 成员函数“void vcg::tri::MidPoint<CMeshO,vcg::tri::BaseInterpolator<MESH_TYPE>>::operator ()(CVertexO &,vcg::face::Pos<CFaceO>)”时
+          with
+          [
+              MESH_TYPE=CMeshO
+          ]
+  		D:\vcglib\vcg\complex\algorithms\refine.h(405,28):
+  		请参阅 "vcg::tri::RefineE" 中对 "vcg::tri::MidPoint<CMeshO,vcg::tri::BaseInterpolator<MESH_TYPE>>::operator ()" 的第一个引用
+          with
+          [
+              MESH_TYPE=CMeshO
+          ]
+  
+  MeshReConstruction.cpp
+D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(195,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.h(18,29): warning C4305: “初始化”: 从“double”到“float”截断
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(140,22): warning C4305: “参数”: 从“double”到“const float”截断
+D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(142,23): warning C4305: “=”: 从“double”到“float”截断
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(83,38): warning C4305: “初始化”: 从“double”到“float”截断
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(122,1):
+  此诊断出现在编译器生成的函数“vcg::tri::IsotropicRemeshing<CMeshO>::Params::Params(void)”中
+  D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(139,47):
+  参见对函数 "vcg::tri::IsotropicRemeshing<CMeshO>::Params::Params(void)" 的引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(84,41): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(122,1):
+  此诊断出现在编译器生成的函数“vcg::tri::IsotropicRemeshing<CMeshO>::Params::Params(void)”中
+  D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(139,47):
+  参见对函数 "vcg::tri::IsotropicRemeshing<CMeshO>::Params::Params(void)" 的引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(86,51): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(122,1):
+  此诊断出现在编译器生成的函数“vcg::tri::IsotropicRemeshing<CMeshO>::Params::Params(void)”中
+  D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(139,47):
+  参见对函数 "vcg::tri::IsotropicRemeshing<CMeshO>::Params::Params(void)" 的引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(87,43): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(122,1):
+  此诊断出现在编译器生成的函数“vcg::tri::IsotropicRemeshing<CMeshO>::Params::Params(void)”中
+  D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(139,47):
+  参见对函数 "vcg::tri::IsotropicRemeshing<CMeshO>::Params::Params(void)" 的引用
+  
+D:\vcglib\vcg\complex\algorithms\point_sampling.h(1954,60): warning C4267: “参数”: 从“size_t”转换到“vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::MarsenneTwisterURBG::result_type”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\point_sampling.h(1954,60):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(233,50):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::SurfaceSampling<CMeshO,BaseSampler>”的引用
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1932,13):
+  	在编译 类 模板 成员函数“void vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::PoissonDiskPruning(VertexSampler &,MeshType &,float,vcg::tri::SurfaceSampling<MeshType,VertexSampler>::PoissonDiskParam &)”时
+          with
+          [
+              VertexSampler=BaseSampler,
+              MeshType=CMeshO
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(254,68):
+  		请参阅 "MeshReConstruction::PoissonDiskSampling" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::PoissonDiskPruning" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\point_sampling.h(1971,55): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\point_sampling.h(1980,53): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\point_sampling.h(2005,83): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\point_sampling.h(1804,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\point_sampling.h(1804,19):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1801,12):
+  	在编译 类 模板 成员函数“int vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::ComputePoissonSampleNum(MeshType &,float)”时
+          with
+          [
+              MeshType=CMeshO
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(239,17):
+  		请参阅 "MeshReConstruction::PoissonDiskSampling" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::ComputePoissonSampleNum" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\point_sampling.h(1797,27): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\point_sampling.h(1797,27):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1786,19):
+  	在编译 类 模板 成员函数“float vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::ComputePoissonDiskRadius(MeshType &,int)”时
+          with
+          [
+              MeshType=CMeshO
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(237,14):
+  		请参阅 "MeshReConstruction::PoissonDiskSampling" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::ComputePoissonDiskRadius" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\point_sampling.h(1189,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\point_sampling.h(1189,28):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1172,13):
+  	在编译 类 模板 成员函数“void vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::Montecarlo(MeshType &,VertexSampler &,int)”时
+          with
+          [
+              MeshType=CMeshO,
+              VertexSampler=BaseSampler
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(245,60):
+  		请参阅 "MeshReConstruction::PoissonDiskSampling" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::Montecarlo" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(106,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(106,29):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(59,20):
+  	在编译类“vcg::tri::IsotropicRemeshing<CMeshO>::Params”时
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(104,14):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::Params::SetTargetLen(const float)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(140,21):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Params::SetTargetLen" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(107,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(108,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(109,58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(424,21): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(424,21):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,28):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Clean<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\clean.h(396,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex(CMeshO &,bool)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(225,52):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex" 的第一个引用
+  
+D:\vcglib\wrap\io_trimesh\export_obj.h(154,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\wrap\io_trimesh\export_obj.h(154,18):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(286,37):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::io::ExporterOBJ<CMeshO>”的引用
+  	D:\vcglib\wrap\io_trimesh\export_obj.h(128,14):
+  	在编译 类 模板 成员函数“int vcg::tri::io::ExporterOBJ<CMeshO>::Save(SaveMeshType &,const char *,int,bool,vcg::CallBackPos (__cdecl *))”时
+          with
+          [
+              SaveMeshType=CMeshO
+          ]
+  		D:\vcglib\wrap\io_trimesh\export_obj.h(120,5):
+  		请参阅 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(286,41):
+  		请参阅 "MeshReConstruction::PoissonReConstruction" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\point_sampling.h(1836,23): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\point_sampling.h(1836,23):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1833,13):
+  	在编译 类 模板 成员函数“void vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::InitSpatialHashTable(MeshType &,vcg::SpatialHashTable<CVertexO,float> &,float,vcg::tri::SurfaceSampling<MeshType,BaseSampler>::PoissonDiskParam)”时
+          with
+          [
+              MeshType=CMeshO
+          ]
+  		D:\vcglib\vcg\complex\algorithms\point_sampling.h(1942,25):
+  		请参阅 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::PoissonDiskPruning" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::InitSpatialHashTable" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(254,68):
+  		请参阅 "MeshReConstruction::PoissonDiskSampling" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::PoissonDiskPruning" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(682,59): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(682,59):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(139,40):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::IsotropicRemeshing<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(680,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::ImproveValence(CMeshO &,vcg::tri::IsotropicRemeshing<CMeshO>::Params &)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(323,31):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveValence" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(682,46): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(505,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(505,24):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(496,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::computeQualityDistFromRadii(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(305,44):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::computeQualityDistFromRadii" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(521,47): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(521,33): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(524,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,68): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(370,68):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(363,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\clean.h(273,23):
+  		请参阅 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,49):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,42): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\wrap\io_trimesh\export_obj.h(393,34): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\wrap\io_trimesh\export_obj.h(393,34):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\wrap\io_trimesh\export_obj.h(375,21):
+  	在编译 类 模板 成员函数“int vcg::tri::io::ExporterOBJ<CMeshO>::WriteMaterials(std::vector<vcg::tri::io::Material,std::allocator<vcg::tri::io::Material>> &,const char *,vcg::CallBackPos (__cdecl *))”时
+  		D:\vcglib\wrap\io_trimesh\export_obj.h(290,40):
+  		请参阅 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::WriteMaterials" 的第一个引用
+  		D:\vcglib\wrap\io_trimesh\export_obj.h(120,5):
+  		请参阅 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(286,41):
+  		请参阅 "MeshReConstruction::PoissonReConstruction" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1225,37): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1225,37):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1221,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::FoldRelax(CMeshO &,vcg::tri::IsotropicRemeshing<CMeshO>::Params &,const int,const bool)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1350,18):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::FoldRelax" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(326,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1225,34): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(225,133): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(225,133):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(151,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::removeColinearFaces(CMeshO &,vcg::tri::IsotropicRemeshing<CMeshO>::Params &)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(258,28):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::cleanMesh" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::removeColinearFaces" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(290,22):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::cleanMesh" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(229,133): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(342,47): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(342,47):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(334,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveDuplicateFace(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(253,55):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::cleanMesh" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateFace" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(290,22):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::cleanMesh" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(341,47): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(340,47): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(70,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Vertex<CUsedTypesO,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf,vcg::vertex::RadiusmOcf,vcg::DefaultDeriver>”的引用
+  	D:\vcglib\vcg\simplex\vertex\base.h(193,29):
+  	查看对正在编译的 类 模板 实例化“vcg::VertexArityMax<UserTypes,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\simplex\vertex\base.h(64,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity12<vcg::vertex::EmptyCore<UserTypes>,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(124,63):
+  	查看对正在编译的 类 模板 实例化“vcg::DefaultDeriver<vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(32,31):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(113,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusmOcf<vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(32,48):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusOcf<float,T>”的引用
+          with
+          [
+              T=vcg::Arity10<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(495,54):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(103,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirmOcf<vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(28,54):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirOcf<vcg::vertex::CurvatureDirTypeOcf<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity9<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(447,60):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(94,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordfOcf<vcg::Arity8<Base,A,B,C,D,E,F,G,H>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(406,47):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordOcf<vcg::TexCoord2<float,1>,T>”的引用
+          with
+          [
+              T=vcg::Arity8<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(388,56):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity8<Base,A,B,C,D,E,F,G,H>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(85,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::MarkOcf<vcg::Arity7<Base,A,B,C,D,E,F,G>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(412,42):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity7<Base,A,B,C,D,E,F,G>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(77,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(275,43):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity6<Base,A,B,C,D,E,F>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(69,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color4b<vcg::Arity5<Base,A,B,C,D,E>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(383,43):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color<vcg::Color4b,TT>”的引用
+          with
+          [
+              TT=vcg::Arity5<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(367,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity5<Base,A,B,C,D,E>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(62,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Qualitym<vcg::Arity4<Base,A,B,C,D>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(24,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Quality<float,T>”的引用
+          with
+          [
+              T=vcg::Arity4<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(395,52):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity4<Base,A,B,C,D>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(55,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal3m<vcg::Arity3<Base,A,B,C>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(20,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity3<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(234,50):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity3<Base,A,B,C>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(49,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::BitFlags<vcg::Arity2<Base,A,B>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(344,44):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity2<Base,A,B>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(43,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord3m<vcg::Arity1<Base,A>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(16,45):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity1<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(194,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity1<Base,A>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(37,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::InfoOcf<Base>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(533,16):
+  	在编译 类 模板 成员函数“int vcg::vertex::InfoOcf<Base>::Index(void) const”时
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\simplex\vertex\component_ocf.h(288,9):
+  		请参阅 "vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>::VFi" 中对 "vcg::vertex::InfoOcf<Base>::Index" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+          and
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\complex\algorithms\update\topology.h(474,17):
+  		请参阅 "vcg::tri::UpdateTopology<CMeshO>::VertexFace" 中对 "vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>::VFi" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(160,47):
+  		请参阅 "CMeshO::updateDataMask" 中对 "vcg::tri::UpdateTopology<CMeshO>::VertexFace" 的第一个引用
+  
+D:\vcglib\vcg\math\histogram.h(109,15): warning C4244: “初始化”: 从“ScalarType”转换到“int”，可能丢失数据
+D:\vcglib\vcg\math\histogram.h(109,15): warning C4244:         with
+D:\vcglib\vcg\math\histogram.h(109,15): warning C4244:         [
+D:\vcglib\vcg\math\histogram.h(109,15): warning C4244:             ScalarType=float
+D:\vcglib\vcg\math\histogram.h(109,15): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\math\histogram.h(109,15):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(420,24):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::computeVQualityDistrMinMax(CMeshO &,float &,float &)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(983,39):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::CollapseShortEdges" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::computeVQualityDistrMinMax" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(318,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::CollapseShortEdges" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(422,34):
+  	查看对正在编译的 类 模板 实例化“vcg::Distribution<float>”的引用
+  	D:\vcglib\vcg\math\histogram.h(104,14):
+  	在编译 类 模板 成员函数“ScalarType vcg::Distribution<ScalarType>::Percentile(ScalarType)”时
+          with
+          [
+              ScalarType=float
+          ]
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(425,14):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::computeVQualityDistrMinMax" 中对 "vcg::Distribution<float>::Percentile" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(983,39):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::CollapseShortEdges" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::computeVQualityDistrMinMax" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(318,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::CollapseShortEdges" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\smooth.h(197,72): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\smooth.h(197,72):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1265,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::VertexCoordPlanarLaplacian(CMeshO &,vcg::tri::IsotropicRemeshing<CMeshO>::Params &,int,float)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1345,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::VertexCoordPlanarLaplacian" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(326,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\smooth.h(194,11):
+  	在编译类“vcg::tri::Smooth<CMeshO>::LaplacianInfo”时
+  	D:\vcglib\vcg\complex\algorithms\smooth.h(197,9):
+  	在编译 类 模板 成员函数“vcg::tri::Smooth<CMeshO>::LaplacianInfo::LaplacianInfo(const vcg::Point3<float> &,const int)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1267,63):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::VertexCoordPlanarLaplacian" 中对 "vcg::tri::Smooth<CMeshO>::LaplacianInfo::LaplacianInfo" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1345,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::VertexCoordPlanarLaplacian" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(326,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\smooth.h(234,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\smooth.h(234,44):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(274,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::Do(CMeshO &,CMeshO &,vcg::tri::IsotropicRemeshing<CMeshO>::Params &,vcg::CallBackPos (__cdecl *))”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(306,45):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Smooth<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\smooth.h(214,17):
+  	在编译 类 模板 成员函数“void vcg::tri::Smooth<CMeshO>::AccumulateLaplacianInfo(CMeshO &,vcg::SimpleTempData<vcg::vertex::vector_ocf<CVertexO>,vcg::tri::Smooth<CMeshO>::LaplacianInfo> &,bool)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1272,64):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::VertexCoordPlanarLaplacian" 中对 "vcg::tri::Smooth<CMeshO>::AccumulateLaplacianInfo" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1345,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::VertexCoordPlanarLaplacian" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(326,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\smooth.h(296,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,33): warning C4244: “参数”: 从“int”转换到“const P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,33): warning C4244:         with
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,33): warning C4244:         [
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,33): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,33): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,33):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(898,17):
+  	在编译 类 模板 成员函数“bool vcg::tri::IsotropicRemeshing<CMeshO>::checkCollapseFacesAroundVert1(const vcg::face::Pos<CFaceO> &,vcg::tri::BasicVertexPair<CVertexO> &,vcg::Point3<float> &,vcg::tri::IsotropicRemeshing<CMeshO>::Params &,bool)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(939,13):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::testCollapse1" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::checkCollapseFacesAroundVert1" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1136,33):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::CollapseCrosses::<lambda_1>::operator ()" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::testCollapse1" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,65): warning C4244: “参数”: 从“int”转换到“const P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,65): warning C4244:         with
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,65): warning C4244:         [
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,65): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,65): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,96): warning C4244: “参数”: 从“int”转换到“const P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,96): warning C4244:         with
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,96): warning C4244:         [
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,96): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(920,96): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244: “=”: 从“_Ty”转换到“_Ty1”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1172,13):
+  	在编译 类 模板 成员函数“void vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::Montecarlo(MeshType &,VertexSampler &,int)”时
+          with
+          [
+              MeshType=CMeshO,
+              VertexSampler=BaseSampler
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(245,60):
+  		请参阅 "MeshReConstruction::PoissonDiskSampling" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::Montecarlo" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1178,17):
+  	查看对正在编译的函数 模板 实例化“std::pair<float,CFaceO *> &std::pair<float,CFaceO *>::operator =<int,CFaceO*,0>(std::pair<int,CFaceO *> &&) noexcept”的引用
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244: “=”: 从“_Ty”转换到“_Ty1”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(399,39):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1183,27):
+  	查看对正在编译的函数 模板 实例化“std::pair<float,CFaceO *> &std::pair<float,CFaceO *>::operator =<double,CFaceO*,0>(std::pair<double,CFaceO *> &&) noexcept”的引用
+  
+D:\vcglib\vcg\math\random_generator.h(76,31): warning C4244: “=”: 从“double”转换到“P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\math\random_generator.h(76,31): warning C4244:         with
+D:\vcglib\vcg\math\random_generator.h(76,31): warning C4244:         [
+D:\vcglib\vcg\math\random_generator.h(76,31): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\math\random_generator.h(76,31): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\math\random_generator.h(76,31):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1057,18):
+  	在编译 类 模板 成员函数“vcg::Point3<float> vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::RandomBarycentric(void)”时
+  		D:\vcglib\vcg\complex\algorithms\point_sampling.h(1197,23):
+  		请参阅 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::Montecarlo" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::RandomBarycentric" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(245,60):
+  		请参阅 "MeshReConstruction::PoissonDiskSampling" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::Montecarlo" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1059,16):
+  	查看对正在编译的函数 模板 实例化“vcg::Point3<float> vcg::math::GenerateBarycentricUniform<float,vcg::math::MarsenneTwisterRNG>(GeneratorType &)”的引用
+          with
+          [
+              GeneratorType=vcg::math::MarsenneTwisterRNG
+          ]
+  
+D:\vcglib\vcg\math\random_generator.h(77,31): warning C4244: “=”: 从“double”转换到“P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\math\random_generator.h(77,31): warning C4244:         with
+D:\vcglib\vcg\math\random_generator.h(77,31): warning C4244:         [
+D:\vcglib\vcg\math\random_generator.h(77,31): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\math\random_generator.h(77,31): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\math\random_generator.h(80,25): warning C4244: “=”: 从“double”转换到“P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\math\random_generator.h(80,25): warning C4244:         with
+D:\vcglib\vcg\math\random_generator.h(80,25): warning C4244:         [
+D:\vcglib\vcg\math\random_generator.h(80,25): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\math\random_generator.h(80,25): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\math\random_generator.h(81,25): warning C4244: “=”: 从“double”转换到“P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\math\random_generator.h(81,25): warning C4244:         with
+D:\vcglib\vcg\math\random_generator.h(81,25): warning C4244:         [
+D:\vcglib\vcg\math\random_generator.h(81,25): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\math\random_generator.h(81,25): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\math\random_generator.h(85,18): warning C4244: “=”: 从“double”转换到“P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\math\random_generator.h(85,18): warning C4244:         with
+D:\vcglib\vcg\math\random_generator.h(85,18): warning C4244:         [
+D:\vcglib\vcg\math\random_generator.h(85,18): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\math\random_generator.h(85,18): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\space\triangle3.h(205,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\space\triangle3.h(205,22):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(496,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::computeQualityDistFromRadii(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(305,44):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::computeQualityDistFromRadii" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(505,31):
+  	查看对正在编译的函数 模板 实例化“P3ScalarType vcg::QualityRadii<float>(const vcg::Point3<P3ScalarType> &,const vcg::Point3<P3ScalarType> &,const vcg::Point3<P3ScalarType> &)”的引用
+          with
+          [
+              P3ScalarType=float
+          ]
+  
+D:\vcglib\vcg\space\tetra3.h(366,24): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\space\tetra3.h(366,24):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\smooth.h(214,17):
+  	在编译 类 模板 成员函数“void vcg::tri::Smooth<CMeshO>::AccumulateLaplacianInfo(CMeshO &,vcg::SimpleTempData<vcg::vertex::vector_ocf<CVertexO>,vcg::tri::Smooth<CMeshO>::LaplacianInfo> &,bool)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1272,64):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::VertexCoordPlanarLaplacian" 中对 "vcg::tri::Smooth<CMeshO>::AccumulateLaplacianInfo" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1345,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::VertexCoordPlanarLaplacian" 的第一个引用
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(326,35):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::ImproveByLaplacian" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\smooth.h(231,47):
+  	查看对正在编译的函数 模板 实例化“vcg::DummyTypes::ScalarType vcg::Tetra::DihedralAngle<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>>(const TetraType &,const size_t)”的引用
+          with
+          [
+              TetraType=vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>
+          ]
+  
+D:\vcglib\vcg\space\tetra3.h(367,24): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\space\tetra3.h(381,15): warning C4244: “return”: 从“double”转换到“vcg::DummyTypes::ScalarType”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\refine.h(154,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\complex\algorithms\refine.h(154,40):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(772,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::SplitLongEdges(CMeshO &,vcg::tri::IsotropicRemeshing<CMeshO>::Params &)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(310,31):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::SplitLongEdges" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(775,33):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::MidPoint<CMeshO,vcg::tri::BaseInterpolator<MESH_TYPE>>”的引用
+          with
+          [
+              MESH_TYPE=CMeshO
+          ]
+  	D:\vcglib\vcg\complex\algorithms\refine.h(139,10):
+  	在编译 类 模板 成员函数“void vcg::tri::MidPoint<CMeshO,vcg::tri::BaseInterpolator<MESH_TYPE>>::operator ()(CVertexO &,vcg::face::Pos<CFaceO>)”时
+          with
+          [
+              MESH_TYPE=CMeshO
+          ]
+  		D:\vcglib\vcg\complex\algorithms\refine.h(1141,10):
+  		请参阅 "vcg::tri::RefineMidpoint" 中对 "vcg::tri::MidPoint<CMeshO,vcg::tri::BaseInterpolator<MESH_TYPE>>::operator ()" 的第一个引用
+          with
+          [
+              MESH_TYPE=CMeshO
+          ]
+  
+D:\vcglib\vcg\container\simple_temporary_data.h(107,40): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\container\simple_temporary_data.h(107,40):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1932,13):
+  	在编译 类 模板 成员函数“void vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::PoissonDiskPruning(VertexSampler &,MeshType &,float,vcg::tri::SurfaceSampling<MeshType,VertexSampler>::PoissonDiskParam &)”时
+          with
+          [
+              VertexSampler=BaseSampler,
+              MeshType=CMeshO
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(254,68):
+  		请参阅 "MeshReConstruction::PoissonDiskSampling" 中对 "vcg::tri::SurfaceSampling<CMeshO,BaseSampler>::PoissonDiskPruning" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\point_sampling.h(1968,23):
+  	查看对正在编译的函数 模板 实例化“ATTR_TYPE &vcg::tri::TriMesh<vcg::vertex::vector_ocf<CVertexO>,vcg::face::vector_ocf<CFaceO>,vcg::tri::DummyContainer,vcg::tri::DummyContainer,vcg::tri::DummyContainer>::AttributeHandle<ATTR_TYPE,vcg::vertex::vector_ocf<CVertexO>>::operator []<CVertexO>(const RefType &)”的引用
+          with
+          [
+              ATTR_TYPE=bool,
+              RefType=CVertexO
+          ]
+  	D:\vcglib\vcg\complex\base.h(302,55):
+  	查看对正在编译的 类 模板 实例化“vcg::SimpleTempData<CONT,ATTR_TYPE>”的引用
+          with
+          [
+              CONT=vcg::vertex::vector_ocf<CVertexO>,
+              ATTR_TYPE=bool
+          ]
+  	D:\vcglib\vcg\container\simple_temporary_data.h(132,26):
+  	查看对正在编译的 类 模板 实例化“vcg::VectorNBW<ATTR_TYPE>”的引用
+          with
+          [
+              ATTR_TYPE=bool
+          ]
+  	D:\vcglib\vcg\container\simple_temporary_data.h(107,18):
+  	在编译 类 模板 成员函数“unsigned int vcg::VectorNBW<ATTR_TYPE>::size(void) const”时
+          with
+          [
+              ATTR_TYPE=bool
+          ]
+  		D:\vcglib\vcg\container\simple_temporary_data.h(196,9):
+  		请参阅 "vcg::SimpleTempData<CONT,ATTR_TYPE>::Reorder" 中对 "vcg::VectorNBW<ATTR_TYPE>::size" 的第一个引用
+          with
+          [
+              CONT=std::vector<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,std::allocator<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>>>,
+              ATTR_TYPE=bool
+          ]
+          and
+          [
+              ATTR_TYPE=bool
+          ]
+  
+D:\vcglib\vcg\container\simple_temporary_data.h(87,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\container\simple_temporary_data.h(87,19):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\container\simple_temporary_data.h(85,7):
+  	在编译 类 模板 成员函数“void vcg::VectorNBW<ATTR_TYPE>::resize(size_t)”时
+          with
+          [
+              ATTR_TYPE=bool
+          ]
+  		D:\vcglib\vcg\container\simple_temporary_data.h(191,20):
+  		请参阅 "vcg::SimpleTempData<CONT,ATTR_TYPE>::Resize" 中对 "vcg::VectorNBW<ATTR_TYPE>::resize" 的第一个引用
+          with
+          [
+              CONT=std::vector<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,std::allocator<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>>>,
+              ATTR_TYPE=bool
+          ]
+          and
+          [
+              ATTR_TYPE=bool
+          ]
+  
+D:\vcglib\vcg\space\point3.h(306,34): warning C4804: “/=”: 在操作中使用类型“bool”不安全
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\space\point3.h(306,34):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\smooth.h(231,47):
+  	查看对正在编译的函数 模板 实例化“vcg::DummyTypes::ScalarType vcg::Tetra::DihedralAngle<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>>(const TetraType &,const size_t)”的引用
+          with
+          [
+              TetraType=vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>
+          ]
+  	D:\vcglib\vcg\space\tetra3.h(369,13):
+  	查看对正在编译的 类 模板 实例化“vcg::Point3<bool>”的引用
+  	D:\vcglib\vcg\space\point3.h(303,18):
+  	在编译 类 模板 成员函数“vcg::Point3<bool> &vcg::Point3<bool>::Normalize(void)”时
+  		D:\vcglib\vcg\space\point3.h(312,18):
+  		请参阅 "vcg::Point3<bool>::normalize" 中对 "vcg::Point3<bool>::Normalize" 的第一个引用
+  		D:\vcglib\vcg\space\point3.h(318,14):
+  		请参阅 "vcg::Point3<bool>::normalized" 中对 "vcg::Point3<bool>::normalize" 的第一个引用
+  		D:\vcglib\vcg\space\tetra3.h(373,41):
+  		请参阅 "vcg::Tetra::DihedralAngle" 中对 "vcg::Point3<bool>::normalized" 的第一个引用
+  
+D:\vcglib\vcg\space\point3.h(306,36): warning C4804: “/”: 在操作中使用类型“bool”不安全
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\space\point3.h(306,46): warning C4804: “/=”: 在操作中使用类型“bool”不安全
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\space\point3.h(306,48): warning C4804: “/”: 在操作中使用类型“bool”不安全
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\space\point3.h(306,58): warning C4804: “/=”: 在操作中使用类型“bool”不安全
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\space\point3.h(306,60): warning C4804: “/”: 在操作中使用类型“bool”不安全
+  (编译源文件“MeshReConstruction.cpp”)
+  
+D:\vcglib\vcg\space\intersection3.h(384,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\space\intersection3.h(384,18):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(129,17):
+  	查看对正在编译的函数 模板 实例化“CFaceO *vcg::GridStaticPtr<CFaceO,float>::DoRay<vcg::RayTriangleIntersectionFunctor<false>,MarkerFace>(OBJRAYISECTFUNCTOR &,OBJMARKER &,const vcg::Ray3<float,false> &,const float &,float &)”的引用
+          with
+          [
+              OBJRAYISECTFUNCTOR=vcg::RayTriangleIntersectionFunctor<false>,
+              OBJMARKER=MarkerFace
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(129,11):
+  		请参阅 "MeshReConstruction::FilterPoints" 中对 "vcg::GridStaticPtr<CFaceO,float>::DoRay" 的第一个引用
+  	D:\vcglib\vcg\space\index\grid_static_ptr.h(437,16):
+  	查看对正在编译的函数 模板 实例化“CFaceO *vcg::GridDoRay<vcg::GridStaticPtr<CFaceO,float>,OBJRAYISECTFUNCTOR,OBJMARKER>(SPATIALINDEXING &,OBJRAYISECTFUNCTOR &,OBJMARKER &,const vcg::Ray3<float,false> &,const float &,float &)”的引用
+          with
+          [
+              OBJRAYISECTFUNCTOR=vcg::RayTriangleIntersectionFunctor<false>,
+              OBJMARKER=MarkerFace,
+              SPATIALINDEXING=vcg::GridStaticPtr<CFaceO,float>
+          ]
+  	D:\vcglib\vcg\space\index\grid_closest.h(176,21):
+  	查看对正在编译的 类 模板 实例化“vcg::RayIterator<vcg::GridStaticPtr<CFaceO,float>,OBJRAYISECTFUNCTOR,OBJMARKER>”的引用
+          with
+          [
+              OBJRAYISECTFUNCTOR=vcg::RayTriangleIntersectionFunctor<false>,
+              OBJMARKER=MarkerFace
+          ]
+  	D:\vcglib\vcg\space\index\space_iterators.h(203,8):
+  	在编译 类 模板 成员函数“bool vcg::RayIterator<vcg::GridStaticPtr<CFaceO,float>,OBJRAYISECTFUNCTOR,OBJMARKER>::Refresh(void)”时
+          with
+          [
+              OBJRAYISECTFUNCTOR=vcg::RayTriangleIntersectionFunctor<false>,
+              OBJMARKER=MarkerFace
+          ]
+  		D:\vcglib\vcg\space\index\space_iterators.h(192,5):
+  		请参阅 "vcg::RayIterator<vcg::GridStaticPtr<CFaceO,float>,OBJRAYISECTFUNCTOR,OBJMARKER>::Init" 中对 "vcg::RayIterator<vcg::GridStaticPtr<CFaceO,float>,OBJRAYISECTFUNCTOR,OBJMARKER>::Refresh" 的第一个引用
+          with
+          [
+              OBJRAYISECTFUNCTOR=vcg::RayTriangleIntersectionFunctor<false>,
+              OBJMARKER=MarkerFace
+          ]
+  		D:\vcglib\vcg\space\index\grid_closest.h(178,16):
+  		请参阅 "vcg::GridDoRay" 中对 "vcg::RayIterator<vcg::GridStaticPtr<CFaceO,float>,OBJRAYISECTFUNCTOR,OBJMARKER>::Init" 的第一个引用
+          with
+          [
+              OBJRAYISECTFUNCTOR=vcg::RayTriangleIntersectionFunctor<false>,
+              OBJMARKER=MarkerFace
+          ]
+  	D:\vcglib\vcg\space\index\space_iterators.h(216,47):
+  	查看对正在编译的函数 模板 实例化“bool vcg::RayTriangleIntersectionFunctor<false>::operator ()<CFaceO,float>(const TRIANGLETYPE &,const vcg::Ray3<float,false> &,SCALARTYPE &)”的引用
+          with
+          [
+              TRIANGLETYPE=CFaceO,
+              SCALARTYPE=float
+          ]
+  	D:\vcglib\vcg\space\intersection3.h(751,21):
+  	查看对正在编译的函数 模板 实例化“bool vcg::IntersectionRayTriangle<float>(const vcg::Ray3<float,false> &,const vcg::Point3<float> &,const vcg::Point3<float> &,const vcg::Point3<float> &,ScalarType &,ScalarType &,ScalarType &)”的引用
+          with
+          [
+              ScalarType=float
+          ]
+  	D:\vcglib\vcg\space\intersection3.h(439,10):
+  	查看对正在编译的函数 模板 实例化“bool vcg::IntersectionLineTriangle<float>(const vcg::Line3<float,false> &,const vcg::Point3<float> &,const vcg::Point3<float> &,const vcg::Point3<float> &,T &,T &,T &)”的引用
+          with
+          [
+              T=float
+          ]
+  
+D:\vcglib\vcg\space\distance3.h(277,22): warning C4244: “参数”: 从“double”转换到“const P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\space\distance3.h(277,22): warning C4244:         with
+D:\vcglib\vcg\space\distance3.h(277,22): warning C4244:         [
+D:\vcglib\vcg\space\distance3.h(277,22): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\space\distance3.h(277,22): warning C4244:         ]
+  (编译源文件“MeshReConstruction.cpp”)
+  D:\vcglib\vcg\space\distance3.h(277,22):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1364,17):
+  	在编译 类 模板 成员函数“void vcg::tri::IsotropicRemeshing<CMeshO>::ProjectToSurface(CMeshO &,vcg::tri::IsotropicRemeshing<CMeshO>::Params &)”时
+  		D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(329,33):
+  		请参阅 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::ProjectToSurface" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\MeshReConstruction.cpp(155,42):
+  		请参阅 "MeshReConstruction::Remeshing" 中对 "vcg::tri::IsotropicRemeshing<CMeshO>::Do" 的第一个引用
+  	D:\vcglib\vcg\complex\algorithms\isotropic_remeshing.h(1371,32):
+  	查看对正在编译的函数 模板 实例化“CFaceO *vcg::tri::GetClosestFaceBase<CMeshO,vcg::GridStaticPtr<CFaceO,float>>(MESH &,GRID &,const vcg::Point3<float> &,const float,float &,vcg::Point3<float> &)”的引用
+          with
+          [
+              MESH=CMeshO,
+              GRID=vcg::GridStaticPtr<CFaceO,float>
+          ]
+  	D:\vcglib\vcg\complex\algorithms\closest.h(154,17):
+  	查看对正在编译的函数 模板 实例化“CFaceO *vcg::GridStaticPtr<CFaceO,float>::GetClosest<vcg::face::PointDistanceBaseFunctor<ScalarType>,MarkerFace>(OBJPOINTDISTFUNCTOR &,OBJMARKER &,const vcg::Point3<float> &,const float &,float &,vcg::Point3<float> &)”的引用
+          with
+          [
+              OBJPOINTDISTFUNCTOR=vcg::face::PointDistanceBaseFunctor<ScalarType>,
+              OBJMARKER=MarkerFace
+          ]
+  	D:\vcglib\vcg\space\index\grid_static_ptr.h(398,17):
+  	查看对正在编译的函数 模板 实例化“CFaceO *vcg::GridClosest<vcg::GridStaticPtr<CFaceO,float>,OBJPOINTDISTFUNCTOR,OBJMARKER>(SPATIAL_INDEX &,OBJPOINTDISTFUNCTOR,OBJMARKER &,const vcg::Point3<float> &,const float &,float &,vcg::Point3<float> &)”的引用
+          with
+          [
+              OBJPOINTDISTFUNCTOR=vcg::face::PointDistanceBaseFunctor<ScalarType>,
+              OBJMARKER=MarkerFace,
+              SPATIAL_INDEX=vcg::GridStaticPtr<CFaceO,float>
+          ]
+  	D:\vcglib\vcg\space\index\grid_closest.h(78,15):
+  	查看对正在编译的函数 模板 实例化“bool vcg::face::PointDistanceBaseFunctor<ScalarType>::operator ()<CFaceO,float>(const FACETYPE &,const vcg::Point3<float> &,SCALARTYPE &,vcg::Point3<float> &)”的引用
+          with
+          [
+              FACETYPE=CFaceO,
+              SCALARTYPE=float
+          ]
+  	D:\vcglib\vcg\simplex\face\distance.h(455,34):
+  	查看对正在编译的函数 模板 实例化“bool vcg::face::PointDistanceBase<FACETYPE>(const FaceType &,const vcg::Point3<float> &,float &,vcg::Point3<float> &)”的引用
+          with
+          [
+              FACETYPE=CFaceO,
+              FaceType=CFaceO
+          ]
+  	D:\vcglib\vcg\simplex\face\distance.h(259,26):
+  	查看对正在编译的函数 模板 实例化“void vcg::SegmentPointDistance<ScalarType>(vcg::Segment3<float>,const vcg::Point3<float> &,vcg::Point3<float> &,ScalarType &)”的引用
+          with
+          [
+              ScalarType=ScalarType
+          ]
+  	D:\vcglib\vcg\space\distance3.h(296,2):
+  	查看对正在编译的函数 模板 实例化“void vcg::SegmentPointSquaredDistance<float>(const vcg::Segment3<float> &,const vcg::Point3<float> &,vcg::Point3<float> &,ScalarType &)”的引用
+          with
+          [
+              ScalarType=float
+          ]
+  
+  mymesh.cpp
+D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(195,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“mymesh.cpp”)
+  
+D:\vcglib\vcg\complex\append.h(389,23): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“mymesh.cpp”)
+  D:\vcglib\vcg\complex\append.h(389,23):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.cpp(16,44):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Append<vcgTriMesh,vcgTriMesh>”的引用
+  	D:\vcglib\vcg\complex\append.h(288,13):
+  	在编译 类 模板 成员函数“void vcg::tri::Append<vcgTriMesh,vcgTriMesh>::MeshAppendConst(MeshLeft &,const ConstMeshRight &,const bool,const bool)”时
+          with
+          [
+              MeshLeft=vcgTriMesh,
+              ConstMeshRight=vcgTriMesh
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.cpp(16,59):
+  		请参阅 "CMeshO::CMeshO" 中对 "vcg::tri::Append<vcgTriMesh,vcgTriMesh>::MeshAppendConst" 的第一个引用
+  
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244: “=”: 从“__int64”转换到“_Ty”，可能丢失数据
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244:         with
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244:         [
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244:             _Ty=unsigned int
+D:\vcglib\vcg\complex\append.h(400,28): warning C4244:         ]
+  (编译源文件“mymesh.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(424,21): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“mymesh.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(424,21):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,28):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Clean<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\clean.h(396,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex(CMeshO &,bool)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(225,52):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,68): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“mymesh.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(370,68):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(363,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\clean.h(273,23):
+  		请参阅 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,49):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,42): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“mymesh.cpp”)
+  
+D:\vcglib\vcg\complex\allocate.h(761,13): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“mymesh.cpp”)
+  D:\vcglib\vcg\complex\allocate.h(761,13):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\append.h(288,13):
+  	在编译 类 模板 成员函数“void vcg::tri::Append<vcgTriMesh,vcgTriMesh>::MeshAppendConst(MeshLeft &,const ConstMeshRight &,const bool,const bool)”时
+          with
+          [
+              MeshLeft=vcgTriMesh,
+              ConstMeshRight=vcgTriMesh
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.cpp(16,59):
+  		请参阅 "CMeshO::CMeshO" 中对 "vcg::tri::Append<vcgTriMesh,vcgTriMesh>::MeshAppendConst" 的第一个引用
+  	D:\vcglib\vcg\complex\append.h(304,27):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Allocator<MeshLeft>”的引用
+          with
+          [
+              MeshLeft=vcgTriMesh
+          ]
+  	D:\vcglib\vcg\complex\allocate.h(743,24):
+  	在编译 类 模板 成员函数“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> vcg::tri::Allocator<MeshLeft>::AddTetras(MeshType &,size_t,vcg::tri::Allocator<MeshType>::PointerUpdater<vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver> *> &)”时
+          with
+          [
+              _Ty=vcg::TetraSimp<vcg::UsedTypes<vcg::Use<CVertexO>::AsVertexType,vcg::Use<CEdgeO>::AsEdgeType,vcg::Use<CFaceO>::AsFaceType,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver,vcg::DefaultDeriver>,
+              MeshLeft=vcgTriMesh,
+              MeshType=vcgTriMesh
+          ]
+  		D:\vcglib\vcg\complex\allocate.h(901,5):
+  		请参阅 "vcg::tri::Allocator<MeshLeft>::AddTetras" 中对 "vcg::tri::Allocator<MeshLeft>::AddTetras" 的第一个引用
+          with
+          [
+              MeshLeft=vcgTriMesh
+          ]
+  		D:\vcglib\vcg\complex\append.h(375,25):
+  		请参阅 "vcg::tri::Append<vcgTriMesh,vcgTriMesh>::MeshAppendConst::<lambda_5>::operator ()" 中对 "vcg::tri::Allocator<MeshLeft>::AddTetras" 的第一个引用
+          with
+          [
+              MeshLeft=vcgTriMesh
+          ]
+  
+D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“mymesh.cpp”)
+  D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(70,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Vertex<CUsedTypesO,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf,vcg::vertex::RadiusmOcf,vcg::DefaultDeriver>”的引用
+  	D:\vcglib\vcg\simplex\vertex\base.h(193,29):
+  	查看对正在编译的 类 模板 实例化“vcg::VertexArityMax<UserTypes,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\simplex\vertex\base.h(64,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity12<vcg::vertex::EmptyCore<UserTypes>,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(124,63):
+  	查看对正在编译的 类 模板 实例化“vcg::DefaultDeriver<vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(32,31):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(113,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusmOcf<vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(32,48):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusOcf<float,T>”的引用
+          with
+          [
+              T=vcg::Arity10<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(495,54):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(103,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirmOcf<vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(28,54):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirOcf<vcg::vertex::CurvatureDirTypeOcf<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity9<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(447,60):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(94,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordfOcf<vcg::Arity8<Base,A,B,C,D,E,F,G,H>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(406,47):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordOcf<vcg::TexCoord2<float,1>,T>”的引用
+          with
+          [
+              T=vcg::Arity8<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(388,56):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity8<Base,A,B,C,D,E,F,G,H>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(85,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::MarkOcf<vcg::Arity7<Base,A,B,C,D,E,F,G>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(412,42):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity7<Base,A,B,C,D,E,F,G>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(77,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(275,43):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity6<Base,A,B,C,D,E,F>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(69,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color4b<vcg::Arity5<Base,A,B,C,D,E>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(383,43):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color<vcg::Color4b,TT>”的引用
+          with
+          [
+              TT=vcg::Arity5<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(367,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity5<Base,A,B,C,D,E>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(62,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Qualitym<vcg::Arity4<Base,A,B,C,D>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(24,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Quality<float,T>”的引用
+          with
+          [
+              T=vcg::Arity4<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(395,52):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity4<Base,A,B,C,D>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(55,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal3m<vcg::Arity3<Base,A,B,C>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(20,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity3<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(234,50):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity3<Base,A,B,C>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(49,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::BitFlags<vcg::Arity2<Base,A,B>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(344,44):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity2<Base,A,B>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(43,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord3m<vcg::Arity1<Base,A>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(16,45):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity1<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(194,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity1<Base,A>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(37,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::InfoOcf<Base>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(533,16):
+  	在编译 类 模板 成员函数“int vcg::vertex::InfoOcf<Base>::Index(void) const”时
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\simplex\vertex\component_ocf.h(392,75):
+  		请参阅 "vcg::vertex::TexCoordOcf<vcg::TexCoord2<float,1>,T>::T" 中对 "vcg::vertex::InfoOcf<Base>::Index" 的第一个引用
+          with
+          [
+              T=vcg::Arity8<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf>
+          ]
+          and
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\complex\append.h(422,17):
+  		请参阅 "vcg::tri::Append<vcgTriMesh,vcgTriMesh>::MeshAppendConst::<lambda_6>::operator ()" 中对 "vcg::vertex::TexCoordOcf<vcg::TexCoord2<float,1>,T>::T" 的第一个引用
+          with
+          [
+              T=vcg::Arity8<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf>
+          ]
+  
+  splitMesh.cpp
+D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(195,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(424,21): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(424,21):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,28):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Clean<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\clean.h(396,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex(CMeshO &,bool)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(225,52):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex" 的第一个引用
+  
+D:\vcglib\wrap\io_trimesh\export_obj.h(154,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  D:\vcglib\wrap\io_trimesh\export_obj.h(154,18):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\splitMesh.cpp(47,37):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::io::ExporterOBJ<CMeshO>”的引用
+  	D:\vcglib\wrap\io_trimesh\export_obj.h(128,14):
+  	在编译 类 模板 成员函数“int vcg::tri::io::ExporterOBJ<CMeshO>::Save(SaveMeshType &,const char *,int,bool,vcg::CallBackPos (__cdecl *))”时
+          with
+          [
+              SaveMeshType=CMeshO
+          ]
+  		D:\vcglib\wrap\io_trimesh\export_obj.h(120,5):
+  		请参阅 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\splitMesh.cpp(47,41):
+  		请参阅 "main" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,68): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(370,68):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(363,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\clean.h(273,23):
+  		请参阅 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,49):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,42): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  
+D:\vcglib\wrap\io_trimesh\export_obj.h(393,34): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  D:\vcglib\wrap\io_trimesh\export_obj.h(393,34):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\wrap\io_trimesh\export_obj.h(375,21):
+  	在编译 类 模板 成员函数“int vcg::tri::io::ExporterOBJ<CMeshO>::WriteMaterials(std::vector<vcg::tri::io::Material,std::allocator<vcg::tri::io::Material>> &,const char *,vcg::CallBackPos (__cdecl *))”时
+  		D:\vcglib\wrap\io_trimesh\export_obj.h(290,40):
+  		请参阅 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::WriteMaterials" 的第一个引用
+  		D:\vcglib\wrap\io_trimesh\export_obj.h(120,5):
+  		请参阅 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\splitMesh.cpp(47,41):
+  		请参阅 "main" 中对 "vcg::tri::io::ExporterOBJ<CMeshO>::Save" 的第一个引用
+  
+D:\vcglib\wrap\io_trimesh\import_stl.h(163,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  D:\vcglib\wrap\io_trimesh\import_stl.h(163,14):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\splitMesh.cpp(30,37):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::io::ImporterSTL<CMeshO>”的引用
+  	D:\vcglib\wrap\io_trimesh\import_stl.h(152,13):
+  	在编译 类 模板 成员函数“bool vcg::tri::io::ImporterSTL<CMeshO>::IsSTLMalformed(const char *,bool &)”时
+  		D:\vcglib\wrap\io_trimesh\import_stl.h(109,3):
+  		请参阅 "vcg::tri::io::ImporterSTL<CMeshO>::IsSTLColored" 中对 "vcg::tri::io::ImporterSTL<CMeshO>::IsSTLMalformed" 的第一个引用
+  		D:\vcglib\wrap\io_trimesh\import_stl.h(221,3):
+  		请参阅 "vcg::tri::io::ImporterSTL<CMeshO>::OpenBinary" 中对 "vcg::tri::io::ImporterSTL<CMeshO>::IsSTLColored" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\splitMesh.cpp(30,47):
+  		请参阅 "main" 中对 "vcg::tri::io::ImporterSTL<CMeshO>::OpenBinary" 的第一个引用
+  
+D:\vcglib\wrap\io_trimesh\import_stl.h(178,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  
+D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“splitMesh.cpp”)
+  D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(70,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Vertex<CUsedTypesO,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf,vcg::vertex::RadiusmOcf,vcg::DefaultDeriver>”的引用
+  	D:\vcglib\vcg\simplex\vertex\base.h(193,29):
+  	查看对正在编译的 类 模板 实例化“vcg::VertexArityMax<UserTypes,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\simplex\vertex\base.h(64,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity12<vcg::vertex::EmptyCore<UserTypes>,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(124,63):
+  	查看对正在编译的 类 模板 实例化“vcg::DefaultDeriver<vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(32,31):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(113,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusmOcf<vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(32,48):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusOcf<float,T>”的引用
+          with
+          [
+              T=vcg::Arity10<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(495,54):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(103,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirmOcf<vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(28,54):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirOcf<vcg::vertex::CurvatureDirTypeOcf<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity9<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(447,60):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(94,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordfOcf<vcg::Arity8<Base,A,B,C,D,E,F,G,H>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(406,47):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordOcf<vcg::TexCoord2<float,1>,T>”的引用
+          with
+          [
+              T=vcg::Arity8<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(388,56):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity8<Base,A,B,C,D,E,F,G,H>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(85,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::MarkOcf<vcg::Arity7<Base,A,B,C,D,E,F,G>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(412,42):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity7<Base,A,B,C,D,E,F,G>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(77,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(275,43):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity6<Base,A,B,C,D,E,F>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(69,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color4b<vcg::Arity5<Base,A,B,C,D,E>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(383,43):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color<vcg::Color4b,TT>”的引用
+          with
+          [
+              TT=vcg::Arity5<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(367,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity5<Base,A,B,C,D,E>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(62,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Qualitym<vcg::Arity4<Base,A,B,C,D>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(24,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Quality<float,T>”的引用
+          with
+          [
+              T=vcg::Arity4<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(395,52):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity4<Base,A,B,C,D>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(55,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal3m<vcg::Arity3<Base,A,B,C>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(20,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity3<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(234,50):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity3<Base,A,B,C>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(49,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::BitFlags<vcg::Arity2<Base,A,B>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(344,44):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity2<Base,A,B>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(43,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord3m<vcg::Arity1<Base,A>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(16,45):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity1<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(194,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity1<Base,A>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(37,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::InfoOcf<Base>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(533,16):
+  	在编译 类 模板 成员函数“int vcg::vertex::InfoOcf<Base>::Index(void) const”时
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\simplex\vertex\component_ocf.h(288,9):
+  		请参阅 "vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>::VFi" 中对 "vcg::vertex::InfoOcf<Base>::Index" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+          and
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\complex\algorithms\update\topology.h(474,17):
+  		请参阅 "vcg::tri::UpdateTopology<CMeshO>::VertexFace" 中对 "vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>::VFi" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(160,47):
+  		请参阅 "CMeshO::updateDataMask" 中对 "vcg::tri::UpdateTopology<CMeshO>::VertexFace" 的第一个引用
+  
+  Factor.cpp
+  Geometry.cpp
+  MarchingCubes.cpp
+  TransMesh.cpp
+D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(195,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“TransMesh.cpp”)
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(424,21): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“TransMesh.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(424,21):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,28):
+  	查看对正在编译的 类 模板 实例化“vcg::tri::Clean<CMeshO>”的引用
+  	D:\vcglib\vcg\complex\algorithms\clean.h(396,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex(CMeshO &,bool)”时
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(225,52):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveUnreferencedVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,68): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“TransMesh.cpp”)
+  D:\vcglib\vcg\complex\algorithms\clean.h(370,68):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\vcglib\vcg\complex\algorithms\clean.h(363,13):
+  	在编译 类 模板 成员函数“int vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge(CMeshO &)”时
+  		D:\vcglib\vcg\complex\algorithms\clean.h(273,23):
+  		请参阅 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateEdge" 的第一个引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(224,49):
+  		请参阅 "CMeshO::EnableAttribute" 中对 "vcg::tri::Clean<CMeshO>::RemoveDuplicateVertex" 的第一个引用
+  
+D:\vcglib\vcg\complex\algorithms\clean.h(370,42): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“TransMesh.cpp”)
+  
+D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“TransMesh.cpp”)
+  D:\vcglib\vcg\simplex\vertex\component_ocf.h(535,16):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(70,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Vertex<CUsedTypesO,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf,vcg::vertex::RadiusmOcf,vcg::DefaultDeriver>”的引用
+  	D:\vcglib\vcg\simplex\vertex\base.h(193,29):
+  	查看对正在编译的 类 模板 实例化“vcg::VertexArityMax<UserTypes,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\simplex\vertex\base.h(64,30):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity12<vcg::vertex::EmptyCore<UserTypes>,A,B,C,D,E,F,G,H,I,J,K,L>”的引用
+          with
+          [
+              UserTypes=CUsedTypesO,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf,
+              L=vcg::DefaultDeriver
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(124,63):
+  	查看对正在编译的 类 模板 实例化“vcg::DefaultDeriver<vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(32,31):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity11<Base,A,B,C,D,E,F,G,H,I,J,K>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf,
+              K=vcg::vertex::RadiusmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(113,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusmOcf<vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(32,48):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::RadiusOcf<float,T>”的引用
+          with
+          [
+              T=vcg::Arity10<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf,vcg::vertex::CurvatureDirmOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(495,54):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity10<Base,A,B,C,D,E,F,G,H,I,J>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf,
+              J=vcg::vertex::CurvatureDirmOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(103,28):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirmOcf<vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(28,54):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::CurvatureDirOcf<vcg::vertex::CurvatureDirTypeOcf<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity9<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf,vcg::vertex::TexCoordfOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(447,60):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity9<Base,A,B,C,D,E,F,G,H,I>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf,
+              I=vcg::vertex::TexCoordfOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(94,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordfOcf<vcg::Arity8<Base,A,B,C,D,E,F,G,H>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(406,47):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::TexCoordOcf<vcg::TexCoord2<float,1>,T>”的引用
+          with
+          [
+              T=vcg::Arity8<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym,vcg::vertex::Color4b,vcg::vertex::VFAdjOcf,vcg::vertex::MarkOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(388,56):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity8<Base,A,B,C,D,E,F,G,H>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf,
+              H=vcg::vertex::MarkOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(85,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::MarkOcf<vcg::Arity7<Base,A,B,C,D,E,F,G>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(412,42):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity7<Base,A,B,C,D,E,F,G>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b,
+              G=vcg::vertex::VFAdjOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(77,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(275,43):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity6<Base,A,B,C,D,E,F>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(69,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color4b<vcg::Arity5<Base,A,B,C,D,E>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(383,43):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Color<vcg::Color4b,TT>”的引用
+          with
+          [
+              TT=vcg::Arity5<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m,vcg::vertex::Qualitym>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(367,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity5<Base,A,B,C,D,E>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(62,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Qualitym<vcg::Arity4<Base,A,B,C,D>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(24,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Quality<float,T>”的引用
+          with
+          [
+              T=vcg::Arity4<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags,vcg::vertex::Normal3m>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(395,52):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity4<Base,A,B,C,D>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(55,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal3m<vcg::Arity3<Base,A,B,C>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(20,46):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Normal<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity3<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf,vcg::vertex::Coord3m,vcg::vertex::BitFlags>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(234,50):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity3<Base,A,B,C>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(49,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::BitFlags<vcg::Arity2<Base,A,B>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(344,44):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity2<Base,A,B>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(43,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord3m<vcg::Arity1<Base,A>>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(16,45):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::Coord<vcg::Point3<float>,T>”的引用
+          with
+          [
+              T=vcg::Arity1<vcg::vertex::EmptyCore<CUsedTypesO>,vcg::vertex::InfoOcf>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component.h(194,49):
+  	查看对正在编译的 类 模板 实例化“vcg::Arity1<Base,A>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf
+          ]
+  	D:\vcglib\vcg\container\derivation_chain.h(37,27):
+  	查看对正在编译的 类 模板 实例化“vcg::vertex::InfoOcf<Base>”的引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  	D:\vcglib\vcg\simplex\vertex\component_ocf.h(533,16):
+  	在编译 类 模板 成员函数“int vcg::vertex::InfoOcf<Base>::Index(void) const”时
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\simplex\vertex\component_ocf.h(288,9):
+  		请参阅 "vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>::VFi" 中对 "vcg::vertex::InfoOcf<Base>::Index" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+          and
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>
+          ]
+  		D:\vcglib\vcg\complex\algorithms\update\topology.h(474,17):
+  		请参阅 "vcg::tri::UpdateTopology<CMeshO>::VertexFace" 中对 "vcg::vertex::VFAdjOcf<vcg::Arity6<Base,A,B,C,D,E,F>>::VFi" 的第一个引用
+          with
+          [
+              Base=vcg::vertex::EmptyCore<CUsedTypesO>,
+              A=vcg::vertex::InfoOcf,
+              B=vcg::vertex::Coord3m,
+              C=vcg::vertex::BitFlags,
+              D=vcg::vertex::Normal3m,
+              E=vcg::vertex::Qualitym,
+              F=vcg::vertex::Color4b
+          ]
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\mymesh.h(160,47):
+  		请参阅 "CMeshO::updateDataMask" 中对 "vcg::tri::UpdateTopology<CMeshO>::VertexFace" 的第一个引用
+  
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244: “=”: 从“const P3ScalarType”转换到“P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244:         with
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244:         [
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244:             P3ScalarType=double
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244:         ]
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244:         and
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244:         [
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\space\point3.h(93,18): warning C4244:         ]
+  (编译源文件“TransMesh.cpp”)
+  D:\vcglib\vcg\space\point3.h(93,18):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\VcgToLibigl\VcgToLibigl\TransMesh.cpp(41,9):
+  	查看对正在编译的函数 模板 实例化“vcg::Point3<float> &vcg::Point3<float>::operator =<double>(const vcg::Point3<double> &)”的引用
+  		D:\Myproject\VcgToLibigl\VcgToLibigl\TransMesh.cpp(41,9):
+  		请参阅 "TransMesh::GetVcgMeshFromLibiglData" 中对 "vcg::Point3<float>::operator =" 的第一个引用
+  
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244: “=”: 从“const P3ScalarType”转换到“P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244:         with
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244:         [
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244:             P3ScalarType=double
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244:         ]
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244:         and
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244:         [
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\space\point3.h(93,32): warning C4244:         ]
+  (编译源文件“TransMesh.cpp”)
+  
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244: “=”: 从“const P3ScalarType”转换到“P3ScalarType”，可能丢失数据
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244:         with
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244:         [
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244:             P3ScalarType=double
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244:         ]
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244:         and
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244:         [
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244:             P3ScalarType=float
+D:\vcglib\vcg\space\point3.h(93,46): warning C4244:         ]
+  (编译源文件“TransMesh.cpp”)
+  
+  正在生成代码...
+OpenMeshCored.lib(OBJReader.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(OBJReader.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OFFReader.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(OFFReader.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(PLYReader.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(PLYReader.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(STLReader.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(STLReader.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OMReader.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(OMReader.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OBJWriter.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(OBJWriter.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OFFWriter.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(OFFWriter.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(STLWriter.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(STLWriter.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OMWriter.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(OMWriter.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(PLYWriter.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(PLYWriter.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(VTKWriter.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(VTKWriter.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(omstream.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(omstream.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(BaseProperty.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(BaseProperty.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(ArrayKernel.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(ArrayKernel.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(TriConnectivity.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(TriConnectivity.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(BaseReader.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(BaseReader.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(IOManager.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(IOManager.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(BinaryHelper.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(BinaryHelper.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(OMFormat.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(OMFormat.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(PropertyCreator.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(PropertyCreator.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(Endian.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(Endian.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(BaseWriter.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(BaseWriter.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+OpenMeshCored.lib(PolyConnectivity.obj) : warning LNK4099: 未找到 PDB“”(使用“OpenMeshCored.lib(PolyConnectivity.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+igl.lib(writeOBJ.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(writeOBJ.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(mesh_boolean.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(mesh_boolean.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(mesh_boolean_type_to_funcs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(mesh_boolean_type_to_funcs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(remesh_self_intersections.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(remesh_self_intersections.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(remove_unreferenced.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(remove_unreferenced.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(extract_cells.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(extract_cells.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(propagate_winding_numbers.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(propagate_winding_numbers.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(assign_scalar.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(assign_scalar.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(mesh_to_cgal_triangle_list.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(mesh_to_cgal_triangle_list.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(remesh_intersections.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(remesh_intersections.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(extract_cells_single_component.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(extract_cells_single_component.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(outer_facet.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(outer_facet.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(submesh_aabb_tree.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(submesh_aabb_tree.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(closest_facet.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(closest_facet.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(cell_adjacency.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(cell_adjacency.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(assign.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(assign.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(projected_cdt.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(projected_cdt.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(unique_rows.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(unique_rows.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(order_facets_around_edge.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(order_facets_around_edge.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(outer_edge.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(outer_edge.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(insert_into_cdt.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(insert_into_cdt.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl_copyleft_cgal.lib(outer_vertex.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl_copyleft_cgal.lib(outer_vertex.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(default_num_threads.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(default_num_threads.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(unique_edge_map.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(unique_edge_map.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(extract_manifold_patches.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(extract_manifold_patches.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(cumsum.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(cumsum.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(resolve_duplicated_faces.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(resolve_duplicated_faces.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(slice.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(slice.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(triangle_triangle_adjacency.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(triangle_triangle_adjacency.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(facet_components.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(facet_components.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(vertex_triangle_adjacency.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(vertex_triangle_adjacency.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(piecewise_constant_winding_number.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(piecewise_constant_winding_number.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(get_seconds.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(get_seconds.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(unique_rows.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(unique_rows.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(accumarray.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(accumarray.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(oriented_facets.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(oriented_facets.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(unique_simplices.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(unique_simplices.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(colon.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(colon.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(facet_adjacency_matrix.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(facet_adjacency_matrix.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(connected_components.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(connected_components.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(sortrows.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(sortrows.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(sort.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(sort.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+igl.lib(reorder.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(plylib.obj 中)
+igl.lib(reorder.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(plylib.obj 中)
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+D:\Myproject\VcgToLibigl\x64\Debug\VcgToLibigl.exe : fatal error LNK1319: 检测到 86 个不匹配项
